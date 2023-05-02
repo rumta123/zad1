@@ -1,0 +1,19 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "tododb",
+    "password": "12345",
+    "database": "tododb",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+      "dist/**/*.entity.js"
+    ],
+    "migrations": [
+      "dist/migrations/**/*.js"
+    ],
+    "cli": {
+      "migrationsDir": "src/migrations"
+    }
+  }
